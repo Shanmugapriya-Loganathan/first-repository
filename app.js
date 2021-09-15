@@ -22,7 +22,7 @@ let validator = require("express-joi-validation").createValidator({
 
 const url ="mongodb+srv://Shanmugapriya:ShanLogu@cluster0.0kydp.mongodb.net/Login-form?retryWrites=true&w=majority"
 
- //or //process.env.mongoose_url
+ console.log("updated")//or //process.env.mongoose_url
 connectionParams={
   useNewUrlParser: true,
   useCreateIndex: true,
